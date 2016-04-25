@@ -97,7 +97,7 @@ The event trackers do not impact bounce rate of the page which embeds the video.
 ## Google Tag Manager
 If you'd like to integrate with Google Tag Manager, the dataLayer variable names are below.
 
-| Macro Name            | Data Layer Variable       | 
+| Macro Name            | Data Layer Variable       |
 | --------------------- | ------------------------- |
 | Event Category        | `{{eventCategory}}`       |
 | Event Action          | `{{eventAction}}`         |
@@ -126,6 +126,11 @@ Have a bug? Please create an [issue](https://github.com/sanderheilbron/vimeo.ga.
 
 ## Contributing
 Want to contribute? Great! Just fork the project, make your changes and open a [pull request](https://github.com/sanderheilbron/vimeo.ga.js/pulls).
+
+## Changelog
+### 0.7 (April 25, 2016)
+* Vimeo IFRAMES now require the CLASS be set to "gtm-vimeo" to properly function. This stops all other IFRAMES on the page from being parsed by the script. (Added by MIC Dev Team)
+* Updated documentation.
 
 ## Changelog
 ### 0.6 (July 6, 2015)
