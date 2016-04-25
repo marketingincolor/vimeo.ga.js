@@ -189,7 +189,7 @@ var vimeoGAJS = (window.vimeoGAJS) ? window.vimeoGAJS : {};
 
       switch (vimeoGAJS.gaTracker) {
       case 'gtm':
-        dataLayer.push({'event': 'Vimeo', 'eventCategory': 'Vimeo', 'eventAction': action, 'eventLabel': label, 'eventValue': undefined, 'eventNonInteraction': (bounce) ? false : true });
+        dataLayer.push({'event': 'Vimeo', 'vimeoeventCategory': 'Vimeo', 'vimeoeventAction': action, 'vimeoeventLabel': label, 'vimeoeventValue': undefined, 'vimeoeventNonInteraction': (bounce) ? false : true });
         break;
 
       case 'ua':
