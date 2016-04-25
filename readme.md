@@ -4,6 +4,8 @@ A Google Analytics plugin for measuring Vimeo Player Events. The plugin supports
 ## Usage
 Include the scripts in the body section of the HTML document, just before the `</body>` tag. You’ll need to be running on a web server instead of opening the file directly in your browser. Flash and JS security restrictions will prevent the API from working when run locally.
 
+**The IFRAME(S) which the plugin is meant to act on MUST be set to `class="gtm-vimeo"` as of this version change!**
+
 ### Basic
 ```html
 <iframe src="https://player.vimeo.com/video/22439234?api=1&player_id=vimeo-player-1" id="vimeo-player-1" width="640" height="390" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
