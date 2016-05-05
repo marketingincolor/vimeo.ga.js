@@ -134,7 +134,6 @@ Want to contribute? Great! Just fork the project, make your changes and open a [
 * Vimeo IFRAMES now require the CLASS be set to "gtm-vimeo" to properly function. This stops all other IFRAMES on the page from being parsed by the script. (Added by MIC Dev Team)
 * Updated documentation.
 
-## Changelog
 ### 0.6 (July 6, 2015)
 * Vimeo video URLs require HTTPS (Vimeo has added the [HSTS response header](https://vimeo.com/forums/api/topic:266518) to their video URLs recently).
 * Possibility to add the name of the video as label.
